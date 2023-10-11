@@ -43,7 +43,7 @@ const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
       <button
         type='button'
         className='bg-red-600 hover:bg-red-700 py-2 px-10 rounded-lg  text-white uppercase font-bold' 
-        onClick={ handleSubmit }
+        onClick={handleSubmit}
       >Eliminar</button>
     </div>
 
